@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter /> debe de mostrar el login en caso de no estar autenticado 1`] = `
+<div>
+  <div
+    class="container login-container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-md-6 login-form-1"
+      >
+        <h3>
+          Ingreso
+        </h3>
+        <form>
+          <div
+            class="form-group mb-2"
+          >
+            <input
+              class="form-control"
+              name="loginEmail"
+              placeholder="Correo"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group mb-2"
+          >
+            <input
+              class="form-control"
+              name="loginPassword"
+              placeholder="Contraseña"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <input
+              class="btnSubmit"
+              type="submit"
+              value="Login"
+            />
+          </div>
+        </form>
+      </div>
+      <div
+        class="col-md-6 login-form-2"
+      >
+        <h3>
+          Registro
+        </h3>
+        <form>
+          <div
+            class="form-group mb-2"
+          >
+            <input
+              class="form-control"
+              name="registerName"
+              placeholder="Nombre"
+              type="text"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group mb-2"
+          >
+            <input
+              class="form-control"
+              name="registerEmail"
+              placeholder="Correo"
+              type="email"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group mb-2"
+          >
+            <input
+              class="form-control"
+              name="registerPassword"
+              placeholder="Contraseña"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            class="form-group mb-2"
+          >
+            <input
+              class="form-control"
+              name="registerPassword2"
+              placeholder="Repita la contraseña"
+              type="password"
+              value=""
+            />
+          </div>
+          <div
+            class="d-grid gap-2"
+          >
+            <input
+              class="btnSubmit"
+              type="submit"
+              value="Crear cuenta"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
